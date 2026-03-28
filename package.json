@@ -12,7 +12,8 @@
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
-    "test": "vitest"
+    "test": "vitest",
+    "types:check": "tsc --noEmit -p tsconfig.app.json"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^7.0.0",
