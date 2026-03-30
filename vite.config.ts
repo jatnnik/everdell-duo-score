@@ -3,6 +3,6 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/everdell-duo/",
+  base: "/everdell-duo-score/",
   plugins: [svelte()],
 });
