@@ -43,7 +43,7 @@ export const cardRegistry = {
       return colorsWithAtLeastThreeCards * 2;
     },
   },
-  hallOfRecords: {
+  "hall-of-records": {
     slug: "hall-of-records",
     name: "Sternwarte",
     points: 3,
@@ -186,7 +186,7 @@ export const cardRegistry = {
     kind: CardKind.Critter,
     getAdditionalPoints: noAdditionalPoints,
   },
-  teaHouse: {
+  "tea-house": {
     slug: "tea-house",
     name: "Teestube",
     points: 1,
