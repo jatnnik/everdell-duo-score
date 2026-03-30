@@ -52,7 +52,7 @@
           {/if}
           {card.name}
         </span>
-        <span class="town-card__points">{card.basePoints}</span>
+        <span class="town-card__points">{card.points}</span>
       </button>
     {/each}
   </div>
